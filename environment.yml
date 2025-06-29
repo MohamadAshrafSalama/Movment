@@ -1,0 +1,15 @@
+name: pose-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - tensorflow>=2.19.0
+    - tensorflow-hub>=0.16.1
+    - opencv-python>=4.11.0
+    - pandas>=2.2.0
+    - matplotlib>=3.9.0
+    - numpy>=1.26.0
+    - tqdm>=4.65.0 
